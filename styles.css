@@ -1,0 +1,118 @@
+.calculator {
+    width: 200px;
+    margin: 50px auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.display {
+    font-size: 18px;
+    text-align: right;
+    width: 89%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    color: black;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+.button-number{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+} 
+
+
+
+
+
+.title {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.taskTable {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.addTask {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+}
+
+.addTask:hover {
+    background-color: #45a049;
+}
+
+.completeButton {
+    background-color: #2196f3;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px
+}
+
+.completeButton:hover {
+    background-color: #1976d2;
+}
+
+.deleteButton {
+    background-color: #f44336;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px
+
+}
+
+.deleteButton:hover {
+    background-color: #d32f2f;
+}
+
+
+.input-task {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font: bold 20px/1.5 italic;
+
+}
+
+.input-task::placeholder {
+    font-size: 20px;
+    
+}
+
+
+.completedTask {
+    text-decoration: line-through;
+}
